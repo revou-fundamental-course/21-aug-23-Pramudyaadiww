@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Welcome section styles */
+.welcome-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    /* Add your banner image here */
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    height: 300px; /* Adjust the height as needed */
+}
+
+/* Facilitation section styles */
+.facilitation {
+    padding: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner {
+        height: 200px; /* Adjust for mobile */
+    }
+}
